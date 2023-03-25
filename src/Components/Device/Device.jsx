@@ -3,6 +3,9 @@ import './Device.css'
 const Device = () => {
     const [steps,setSteps]=useState(0);
     const RunDe=()=>{
+        // if (steps>100) {
+        //    newSteps= steps+5;
+        // }
         const newSteps=steps+1;
         // console.log(setSteps)
         setSteps(newSteps)

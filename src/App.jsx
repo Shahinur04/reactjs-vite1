@@ -2,6 +2,7 @@
 
 import './App.css'
 import Device from './Components/Device/Device'
+import Utilities from './Utilities/Utilities'
 
 function App() {
   
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       <ViteJs></ViteJs>
       <Device></Device>
+      <Utilities></Utilities>
     </div>
   )
 }
